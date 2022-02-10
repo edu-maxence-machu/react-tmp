@@ -1,16 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header/Header";
-import headerStyle from "./components/Header/SHeader.module.css";
+import Navbar from "./layout/Navbar";
+import Slider from "./layout/Slider";
+import ScrollView from "./layout/ScrollView";
+import Categories from "./layout/Categories";
+
 function App() {
   return (
-    <div className="App">
-      <Header />
-
-      <h1 className={headerStyle.Header}>TEST H1</h1>
-
-      <div>
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="app">
+      <Navbar />
+      <div className="app__container">
+        <Slider />
+        <Categories />
+        <ScrollView />
       </div>
     </div>
   );

@@ -1,0 +1,17 @@
+.row {
+}
+
+.title {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.scrollableX {
+  width: calc(100vw - 10em);
+  overflow-x: scroll;
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+}
